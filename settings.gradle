@@ -1,0 +1,2 @@
+rootProject.name = "kakao_SignUp_Lucid"
+include ':app'
