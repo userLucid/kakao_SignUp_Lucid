@@ -23,7 +23,9 @@
         android:layout_height="wrap_content"
         android:hint="카카오메일 아이디, 이메일, 전화번호"
         android:textSize="15dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"/>
 
 
 
@@ -31,7 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:inputType="textPassword"/>
 
     <CheckBox
         android:layout_width="wrap_content"
