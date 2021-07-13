@@ -7,17 +7,16 @@
     android:orientation="vertical"
     android:layout_marginLeft="40dp"
     android:layout_marginRight="40dp"
-    android:layout_marginTop="40dp"
-    android:layout_marginBottom="40dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/kakao_logo"
-        android:layout_marginBottom="30dp"/>
-
-
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/kakao_logo3"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -37,6 +36,8 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
         android:text="로그인 상태 유지"/>
 
 
@@ -59,19 +60,33 @@
         android:layout_height="wrap_content"
         android:text="QR코드 로그인"/>
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입"/>
+        android:orientation="horizontal">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="카카오계정"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="비밀번호 찾기"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카카오계정"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 찾기"/>
+
+
+    </LinearLayout>
+
 
 
 
