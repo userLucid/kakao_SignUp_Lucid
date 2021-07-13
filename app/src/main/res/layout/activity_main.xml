@@ -19,6 +19,8 @@
         android:layout_marginBottom="20dp"
         android:src="@drawable/kakao_logo3"/>
 
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +52,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그인"/>
+        android:backgroundTint="#ffe900"
+        android:text="로그인"
+        android:textColor="#000000"/>
 
 
     <ImageView
@@ -62,13 +66,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="QR코드 로그인" />
+        android:backgroundTint="#e2e2e2"
+        android:text="QR코드 로그인"
+        android:textColor="#000000"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="150dp">
 
 
 
@@ -78,6 +84,8 @@
             android:layout_weight="4"
             android:textSize="10dp"
             android:text="회원가입"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
             android:layout_marginRight="20dp"/>
 
         <TextView
@@ -92,6 +100,8 @@
             android:layout_weight="5"
             android:text="카카오계정"
             android:textSize="10dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
             android:layout_marginLeft="15dp"/>
 
         <Button
@@ -99,6 +109,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="7"
             android:text="비밀번호 찾기"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
             android:textSize="10dp" />
 
 
